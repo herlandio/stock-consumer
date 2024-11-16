@@ -12,7 +12,7 @@ public class KafkaConsumerService {
     @KafkaListener(topics = "low-stock-notifications", groupId = "notification-consumer-group")
     public void consume(String message) {
         try {
-            log.warn("Consumed message: {}", message);
+            log.info("Consumed message: {}", message);
         } catch (Exception e) {
             log.error("Error processing message: {}", e.getMessage());
         }
