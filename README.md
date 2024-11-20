@@ -53,9 +53,11 @@ git clone https://github.com/herlandio/stock-consumer
 
 Compile e execute o projeto:
 
-```./mvnw spring-boot:run```
+```
+./mvnw spring-boot:run
+```
 
-### Próximos Passos
+## Próximos Passos
 
 1. Implementar lógica de envio de e-mails no CriticalMessageHandler.
 2. Criar integração com sistemas de monitoramento no LowMessageHandler.
